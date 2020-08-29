@@ -88,10 +88,10 @@ $mail->SMTPSecure = 'tls';
 $mail->SMTPAuth = true;
 
 //Username to use for SMTP authentication - use full email address for gmail
-$mail->Username = "AKIATZTO6KPEQF2KFVUQ";
+$mail->Username = "ABCD";
 
 //Password to use for SMTP authentication
-$mail->Password = "BGNdLu+PPIcI7jLSZd8UwLssURBTvdtOLrIOdk2JsLb9";
+$mail->Password = "ABCD";
 
 //Set who the message is to be sent from
 $mail->setFrom('prajwalsutar0@gmail.com', 'M-Ticket');
@@ -123,8 +123,8 @@ ini_set("display_errors", 1);
 
 $params = array(
     'credentials' => array(
-        'key' => 'AKIATZTO6KPE4HKBQ2P5',
-        'secret' => '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',
+        'key' => 'ABCD',
+        'secret' => 'ABCD',
     ),
   'region'  => 'eu-west-1',
     'version' => 'latest',
